@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/cardView_popular">
+    <LinearLayout
+        android:background="@drawable/back_5_1"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" >
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="20dp">
+            <ImageView
+                android:id="@+id/img_popular"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/category2"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/title_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valito House"
+                android:textStyle="bold"
+                android:textColor="@color/textcolor"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/location_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benowo Surabaya"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/ic_baseline_star_24"/>
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/ic_baseline_star_24"/>
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/ic_baseline_star_24"/>
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/ic_baseline_star_24"/>
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_baseline_star_24"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="$800"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/priceProduct"
+                    android:textStyle="bold"
+                    android:textColor="@color/mainbg"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/back_5_2"
+                    android:id="@+id/showDetail1"
+                    android:text="Order"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

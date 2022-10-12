@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/homepage"
+    android:enabled="true"
+    android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"/>
+    <item
+        android:id="@+id/productpage"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="search"/>
+    <item
+        android:id="@+id/customerpage"
+        android:enabled="true"
+        android:icon="@drawable/ic_cars"
+        android:title="@string/app_name"/>
+    <item
+        android:id="@+id/searchpage"
+        android:enabled="true"
+        android:icon="@drawable/ic_arc"
+        android:title="@string/app_name"/>
+</menu>

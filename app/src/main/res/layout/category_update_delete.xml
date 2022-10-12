@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:mode="same_level"
+    android:layout_marginBottom="5dp"
+    app:dragEdge="right">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:text="Delete"
+            android:gravity="center"
+            android:background="#EC1F1F"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/mainbg"
+            android:id="@+id/deleteCategoryServices"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Update"
+            android:padding="2dp"
+            android:gravity="center"
+            android:background="#C30BED"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/mainbg"
+            android:id="@+id/updateCategoryServices"
+            />
+    </LinearLayout>
+    <!-- Your main layout here -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/category2"
+            android:scaleType="centerCrop"
+            android:id="@+id/img_cat_services"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pupolar"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/darker"
+            android:layout_weight="1"
+            android:id="@+id/nameCatServices"
+            android:maxLines="1"
+            android:lines="1"
+            />
+
+    </LinearLayout>
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

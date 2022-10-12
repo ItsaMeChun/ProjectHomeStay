@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.settingsPage">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:layout_marginBottom="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/purple_200"
+            android:text="Setting"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="0dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tài khoản"
+                android:textSize="20sp"
+                android:textColor="@color/purple_200"
+                android:textStyle="bold"
+                android:id="@+id/userServices"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="160dp"
+                    android:background="@drawable/back_5_2"
+                    android:textColor="@color/mainbg"
+                    android:text="Add Category"
+                    android:id="@+id/addCategory"
+                    android:lines="2"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_height="140dp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="160dp"
+                    android:textColor="@color/mainbg"
+                    android:background="@drawable/back_5_2"
+                    android:text="Add Product"
+                    android:lines="2"
+                    android:id="@+id/AddProduct"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_height="140dp"  />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="160dp"
+                    android:background="@drawable/back_5_2"
+                    android:textColor="@color/mainbg"
+                    android:text="Add News"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/AddNew"
+                    android:lines="2"
+                    android:layout_height="140dp"  />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="160dp"
+                    android:textColor="@color/mainbg"
+                    android:background="@drawable/back_5_2"
+                    android:lines="2"
+                    android:textStyle="bold"
+                    android:text="About us"
+                    android:id="@+id/AboutUs"
+                    android:textSize="16sp"
+                    android:layout_height="140dp"  />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="160dp"
+                    android:background="@drawable/back_5_2"
+                    android:textColor="@color/mainbg"
+                    android:text="Edit Product"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/next"
+                    android:lines="2"
+                    android:layout_height="140dp"  />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="160dp"
+                    android:textColor="@color/mainbg"
+                    android:background="@drawable/back_5_2"
+                    android:lines="2"
+                    android:textStyle="bold"
+                    android:text="Edit News"
+                    android:id="@+id/edtNews"
+                    android:textSize="16sp"
+                    android:layout_height="140dp"  />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

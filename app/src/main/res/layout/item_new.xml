@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    app:cardBackgroundColor="#EAC4D8"
+    android:layout_marginTop="10dp"
+    android:id="@+id/item_news_layout">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp" >
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="20dp">
+            <ImageView
+                android:id="@+id/img_new"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/category2"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/name_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valito House"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:textColor="@color/mainbg"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/author_new"
+                android:textSize="14sp"
+                android:textColor="@color/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benowo Surabaya"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/desc_new"
+                android:lines="3"
+                android:textSize="12sp"
+                android:textColor="@color/mainbg"
+                android:maxLines="3"
+                android:text="...Yen và Jin là 2 anh em học tiểu học, là người kế vị của gia đình
+                Rangun, 1 gia đình thương nhân, nhưng thực chất là Gakushi – những
+                người chiến đấu chống lại Maga, bọn ma quỉ. Trong thế giới này, các
+                trận chiến với ma quỉ thường phân thắng thua bằng trò chơi đoán tên của"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/back_5_2"
+                    android:id="@+id/btn_opendetailnew"
+                    android:text="Read"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

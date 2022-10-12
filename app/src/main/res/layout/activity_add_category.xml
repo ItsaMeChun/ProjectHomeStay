@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    tools:context=".Activity.Activity_buyInfo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:gravity="center"
+        android:textColor="@color/purple_200"
+        android:text="Add category"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="13sp"
+        android:textColor="@color/purple_200"
+        android:text="Name category"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:maxLines="1"
+        android:textCursorDrawable="@drawable/grey_cursor_color"
+        android:textSize="15dp"
+        android:id="@+id/add_nameCategory"
+        android:hint="Home stay... "
+        android:textStyle="italic"
+
+        android:textColorHint="@color/black"
+        android:textColor="@color/darker"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="6.3dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/purple_200"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="13sp"
+        android:textColor="@color/purple_200"
+        android:text="Url image of category"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:maxLines="1"
+        android:textCursorDrawable="@drawable/grey_cursor_color"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:id="@+id/urlCategory"
+        android:lines="4"
+        android:gravity="top"
+        android:hint="www.unsplash....."
+        android:textColorHint="@color/black"
+        android:textColor="@color/darker"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="6.3dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/purple_200"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/btnBackCategory"
+            android:background="@drawable/back_5_2"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginRight="40dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:id="@+id/btnAddNewCategory"
+            android:background="@drawable/back_5_2"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/mainbg"
+            />
+    </LinearLayout>
+
+</LinearLayout>

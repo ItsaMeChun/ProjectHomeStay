@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".Activity.ProductByIdCategory">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Product Page"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#FABAD1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:drawableStart="@drawable/ic_search"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/searchProductById"
+                android:hint="Search Product"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recv_product_page"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/processBar1"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        />
+</LinearLayout>

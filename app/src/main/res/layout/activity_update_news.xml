@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    tools:context=".Activity.Activity_buyInfo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:gravity="center"
+        android:text="Add New"
+        android:textColor="@color/purple_200"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="13sp"
+        android:textColor="@color/purple_200"
+        android:text="Title new"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/titleNewUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:hint="Top home stay ..."
+        android:maxLines="1"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@drawable/grey_cursor_color"
+
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="6.3dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/purple_200"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="13sp"
+        android:textColor="@color/purple_200"
+        android:text="URL image"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/imgNewUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:hint="www.unsplash"
+        android:lines="3"
+        android:maxLines="3"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@drawable/grey_cursor_color"
+
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="6.3dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/purple_200"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="13sp"
+        android:textColor="@color/purple_200"
+        android:text="Author"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/authorNewUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:hint="Rhymastic "
+        android:maxLines="1"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@drawable/grey_cursor_color"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="6.3dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/purple_200"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="13sp"
+        android:textColor="@color/purple_200"
+        android:text="Description"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/descNewUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Description..."
+        android:lines="10"
+        android:maxLines="10"
+        android:textColor="@color/darker"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@drawable/grey_cursor_color"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1.5dp"
+        android:layout_marginTop="6.3dp"
+        android:layout_marginRight="44dp"
+        android:background="@color/purple_200"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/btnBackEdtNews"
+            android:background="@drawable/back_5_2"
+            android:textStyle="bold"
+            android:textSize="16sp"
+
+            android:textColor="@color/mainbg"
+            android:layout_marginRight="40dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent"
+            android:id="@+id/btnSentNewUpdate"
+            android:background="@drawable/back_5_2"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/mainbg"
+            />
+    </LinearLayout>
+
+</LinearLayout>

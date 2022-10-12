@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:mode="same_level"
+    android:layout_marginTop="5dp"
+    android:id="@+id/swipe"
+    app:dragEdge="right">
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/delete_cart_item"
+        android:background="@drawable/back_5_1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="30dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/back_5_1"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp" >
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                app:cardCornerRadius="20dp">
+                <ImageView
+                    android:id="@+id/img_cart_item"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/category2"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/title_item_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Valito House"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/location_popular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Benowo Surabaya"/>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_baseline_star_24"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/mainbg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/sl"
+                        android:gravity="center"
+                        android:text="SL : 1 ="/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="$800"
+                        android:textSize="20dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/price_cart"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainbg"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectHomeStay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hoang_bao_phuc">Hoang Bao Phuc</string>
+    <string name="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia cupiditate quibusdam cum facere nulla quisquam accusantium nemo ut. Iure, dolor. Rerum molestiae, sit animi iste ducimus id eos saepe soluta</string>
+</resources>

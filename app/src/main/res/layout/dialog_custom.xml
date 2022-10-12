@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back_5_1"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/dialogCustom"
+    android:layout_margin="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/round_pink_diglog"
+        android:text="Youu choose" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thanks you so much"
+            android:gravity="center"
+            android:textColor="@color/mainbg"
+            android:textSize="14sp"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/Login_buy"
+                android:layout_width="0dp"
+                android:textSize="14sp"
+                android:textStyle="italic|bold"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_5_2"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primaryColor"
+                android:text="Login"
+                />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/send_buy"
+                android:background="@drawable/back_5_2"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:textStyle="italic|bold"
+                android:textColor="@color/primaryColor"
+                android:layout_height="wrap_content"
+                android:text="Sent info"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
