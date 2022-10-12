@@ -1,3 +1,2 @@
-* linguist-vendored
 *.java linguist-detectable=true
 *.php linguist-detecable=true
